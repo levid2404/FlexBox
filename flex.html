@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+
+<style>
+a {color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+    border: solid;
+    border-color: black;
+    width: 225px;
+}
+
+header {
+    text-align: center;
+}
+
+.t-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+header:hover {
+    font-size: 50px;
+    color: purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url("anirain.jpg") 
+}
+
+
+
+
+</style>
+<body>
+
+    <header>Top 5 CD's</header>
+    <div class="container">
+        <figure>
+           <a href="https://www.youtube.com/watch?v=zTpTNC1WvlI&ab_channel=LebertAnsbyTV">
+            <img src="juice.jpg">
+        <figcaption>Goodbye And Good Riddance</figcaption>
+        </a>
+        </figure>
+        <figure>
+            <a href="https://www.youtube.com/watch?v=E2PjR_oRLuY&ab_channel=CityMorgue">
+            <img src="Zila.png">
+            <figcaption>Chains</figcaption>
+        </a>
+        </figure>
+        <figure>
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_nLUHyB2jJFAkVODlKX07-LvFKQJXhv1mQ">
+            <img src="Denzel.jpg">
+            <figcaption>Imperial</figcaption>
+        </a>
+        </figure>
+        <figure>
+            <a href="https://www.youtube.com/watch?v=c7ks2MLUgcA&ab_channel=SlaW">            
+                <img src="Broc.jpg">
+            <figcaption>Want Em Dead</figcaption>
+            </a>
+        </figure>
+        <figure>
+            <a href="https://www.youtube.com/playlist?list=OLAK5uy_mVQqoTh5bx3DUa1DRIkHolv3vXWcf2GeU">
+            <img src="Trippie.jpg">
+            <figcaption>A Love Letter To You</figcaption>
+        </a>
+        </figure>
+    </div>
+</body>
+</html>
